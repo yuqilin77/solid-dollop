@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function e (){
     //create a fetch request to return a promise
-    fetch("data/module5.json")
+    fetch("module5.json")
     // resolve the promise using the response class
     .then(response => {
         // check the status of the response
